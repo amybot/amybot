@@ -10,7 +10,7 @@
 
 [`amybot/alice`](https://github.com/amybot/alice) - Main backend worker. Handles basically all commands, as well as queueing up events for other backend services.
 
-[`amybot/hotspring`](https://github.com/amybot/hotspring) - JDA-Audio-based audio server. Uses a REST API, and pushes events into the same queue that `alice` workers read from.
+[`amybot/hotspring`](https://github.com/amybot/hotspring) - [JDA-Audio](https://github.com/DV8FromTheWorld/JDA-Audio)-based audio server. Uses a REST API, and pushes events into the same queue that `alice` workers read from.
 
 ### Supporting code
 
