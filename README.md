@@ -4,7 +4,7 @@
 
 ### Main components
 
-[`amybot/samantha`](https://github.com/amybot/samantha) (Elixir) - Bot shards. Opens connections to the Discord websocket gateway and pushes events onto the queue.
+**DEPRECATED** [`amybot/samantha`](https://github.com/amybot/samantha) (Elixir) - Bot shards. Opens connections to the Discord websocket gateway and pushes events onto the queue.
 
 [`amybot/samantha-connector`](https://github.com/amybot/samantha-connector) (Elixir) - Assigns shard IDs to `samantha` instances. Persists state in redis.
 
