@@ -6,7 +6,7 @@
 
 **DEPRECATED** [`amybot/samantha`](https://github.com/amybot/samantha) (Elixir) - Bot shards. Opens connections to the Discord websocket gateway and pushes events onto the queue.
 
-[`amybot/samantha-connector`](https://github.com/amybot/samantha-connector) (Elixir) - Assigns shard IDs to `samantha` instances. Persists state in redis.
+**DEPRECATED** [`amybot/samantha-connector`](https://github.com/amybot/samantha-connector) (Elixir) - Assigns shard IDs to `samantha` instances. Persists state in redis.
 
 [`amybot/alice`](https://github.com/amybot/alice) (Elixir) - Main backend worker. Handles basically all commands, as well as queueing up events for other backend services.
 
